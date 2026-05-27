@@ -8,7 +8,7 @@ export default defineConfig({
   root: "client",
   base: "",
   server: {
-    // Note: The FLATNOTES_PATH_PREFIX environment variable is not supported by the dev server
+    // Run the Go server on port 8000 while using the Vite dev server.
     port: 8080,
     proxy: {
       "/api/": {

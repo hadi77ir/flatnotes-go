@@ -3,15 +3,15 @@
 
 # Include the following
 !.htmlnanorc
-!LICENSE
-!Pipfile
-!Pipfile.lock
+!cmd/**
+!Dockerfile*
+!go.mod
+!go.sum
+!internal/**
+!Makefile
 !client/**
-!entrypoint.sh
-!healthcheck.sh
 !package-lock.json
 !package.json
 !postcss.config.js
-!server/**
 !tailwind.config.js
 !vite.config.js
