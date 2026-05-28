@@ -1,4 +1,4 @@
-FROM golang:1.24-bookworm
+FROM golang:1.25.10-bookworm
 
 RUN apt update && apt install -y \
     curl \

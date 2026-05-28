@@ -1,6 +1,6 @@
 module github.com/hadi77ir/flatnotes-go
 
-go 1.25.0
+go 1.25.10
 
 require (
 	github.com/blevesearch/bleve/v2 v2.6.0

@@ -22,7 +22,7 @@ COPY client ./client
 RUN npm run build
 
 # Server Build Container
-FROM --platform=$BUILDPLATFORM golang:1.24-alpine AS server-build
+FROM --platform=$BUILDPLATFORM golang:1.25.10-alpine AS server-build
 
 ARG BUILD_DIR
 
